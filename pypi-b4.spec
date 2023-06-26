@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-b4
-Version  : 0.12.2
-Release  : 1
-URL      : https://files.pythonhosted.org/packages/e1/fe/fa5649438f09d1c997591eeeec772f6f97e3f05af88c5824f9abb18e0574/b4-0.12.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/e1/fe/fa5649438f09d1c997591eeeec772f6f97e3f05af88c5824f9abb18e0574/b4-0.12.2.tar.gz
+Version  : 0.12.3
+Release  : 2
+URL      : https://files.pythonhosted.org/packages/8c/bc/841866057347310e38865341b973727bb99558a26e7eae4b7e00b6c5a886/b4-0.12.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/8c/bc/841866057347310e38865341b973727bb99558a26e7eae4b7e00b6c5a886/b4-0.12.3.tar.gz
 Summary  : A tool to work with public-inbox and patch archives
 Group    : Development/Tools
 License  : GPL-2.0 GPL-2.0+
@@ -79,10 +79,10 @@ python3 components for the pypi-b4 package.
 
 
 %prep
-%setup -q -n b4-0.12.2
-cd %{_builddir}/b4-0.12.2
+%setup -q -n b4-0.12.3
+cd %{_builddir}/b4-0.12.3
 pushd ..
-cp -a b4-0.12.2 buildavx2
+cp -a b4-0.12.3 buildavx2
 popd
 
 %build
@@ -90,7 +90,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684516265
+export SOURCE_DATE_EPOCH=1687795478
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
