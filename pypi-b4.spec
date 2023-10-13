@@ -5,7 +5,7 @@
 #
 Name     : pypi-b4
 Version  : 0.12.3
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/8c/bc/841866057347310e38865341b973727bb99558a26e7eae4b7e00b6c5a886/b4-0.12.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8c/bc/841866057347310e38865341b973727bb99558a26e7eae4b7e00b6c5a886/b4-0.12.3.tar.gz
 Summary  : A tool to work with public-inbox and patch archives
