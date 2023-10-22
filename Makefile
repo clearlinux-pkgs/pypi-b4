@@ -1,5 +1,5 @@
 PKG_NAME := pypi-b4
-URL = https://files.pythonhosted.org/packages/8c/bc/841866057347310e38865341b973727bb99558a26e7eae4b7e00b6c5a886/b4-0.12.3.tar.gz
+URL = https://files.pythonhosted.org/packages/74/df/336c8c367dca0331927e4c940fabc66d005b633559395ffa983187c5dfe3/b4-0.12.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
